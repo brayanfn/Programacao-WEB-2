@@ -25,3 +25,24 @@
   </form>
 </body>
 </html>
+
+<?php
+  
+  $nome = $_REQUEST['nome'];
+  $fabricante = $_REQUEST['fabricante'];
+  $preco = $_REQUEST['preco'];
+  $estoque = $_REQUEST['estoque'];
+    
+  require_once('config/conexao.php');
+      
+  $sql = "INSERT INTO produtos (nome, fabricante, preco, estoque) VALUES (:nome, :fabricante, :preco, :estoque)";
+  $stmt = $conexao -> prepare($sql);
+      
+  $stmt -> execute([
+      ':nome' => $nome,
+      ':fabricante' => $fabricante,
+      ':preco' => $preco,
+      ':estoque' => $estoque
+      ]);
+
+?>
