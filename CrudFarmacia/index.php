@@ -10,9 +10,6 @@
         include 'includes/header.php';
     ?>
     <h2>Dados do Banco de Dados</h2>
-    <?php
-        include 'includes/footer.php';
-    ?>
 </body>
 </html>
 
@@ -49,5 +46,5 @@ if ($tabela){
     }
 }
     echo "</table>";
-    
+include 'includes/footer.php';
 ?>
