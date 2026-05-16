@@ -1,12 +1,12 @@
 <?php 
 
-require 'conexao.php';
+require 'config/conexao.php';
 
 $sql = "Select * FROM produtos";
-$stmt = ""->prepare($sql);
+$stmt = $conexao->prepare($sql);
 $stmt->execute();
 
-$tabela =  $smt->fetchAll(PDO::FETCH_ASSOC);
+$tabela =  $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 if ($tabela){
     foreach ($tabela as $item){
