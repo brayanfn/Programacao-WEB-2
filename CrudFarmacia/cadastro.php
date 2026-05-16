@@ -27,6 +27,9 @@
         <br>
         <button type="submit">Cadastrar</button>
     </form>
+    <?php
+        include 'includes/footer.php';
+    ?>
 </body>
 </html>
 
