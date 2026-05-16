@@ -13,7 +13,7 @@
 <?php 
 
 require 'config/conexao.php';
-include 'header.php';
+include 'includes/header.php';
 
 $sql = "Select * FROM produtos";
 $stmt = $conexao->prepare($sql);
