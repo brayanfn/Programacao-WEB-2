@@ -6,19 +6,25 @@
     <title>Document</title>
 </head>
 <body>
+    <?php 
+        include 'includes/header.php';
+    ?>
     <h2>Teste de Funcionalidade</h2>
 
     <form method = "POST" action = "">
         <input type = "number" name = "id">
         <button type = "subimt" name = "btnExcluir">Excluir</button>
     </form>
+    <?php
+        include 'includes/footer.php>;
+    ?>
 </body>
 </html>
 
 <?php 
 
     require_once 'config/conexao.php';
-    include 'includes/header.php';
+
 
     if(isset($_POST["btnExcluir"])){
 
