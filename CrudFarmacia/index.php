@@ -6,14 +6,19 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+        include 'includes/header.php';
+    ?>
     <h2>Dados do Banco de Dados</h2>
+    <?php
+        include 'includes/footer.php';
+    ?>
 </body>
 </html>
 
 <?php 
 
 require 'config/conexao.php';
-include 'includes/header.php';
 
 $sql = "Select * FROM produtos";
 $stmt = $conexao->prepare($sql);
