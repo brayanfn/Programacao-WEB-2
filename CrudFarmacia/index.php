@@ -28,14 +28,26 @@ $tabela =  $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 if ($tabela){
 
+    echo '<table class="index__tabela" border="1">';
+    echo "<tr>";
+    echo "<th>ID</th>";
+    echo "<th>Nome</th>";
+    echo "<th>Fabricante</th>";
+    echo "<th>Preço</th>";
+    echo "<th>Estoque</th>";
+    echo "</tr>";
     
     foreach ($tabela as $item){
-        echo "ID: " . $item['id'] . " | | ";
-        echo "Nome: " . $item['nome'] . " | | " ;
-        echo "Fabricante: " . $item['fabricante'] . " | | " ;
-        echo "Preço: " . $item['preco'] . " | | " ;
-        echo "Estoque: " . $item['estoque'] . " | | </br>";
+        echo "<tr>";
+        echo "<td>" . $item['id'] . "</td>";
+        echo "<td>" . $item['nome'] . "</td>" ;
+        echo "<td>" . $item['fabricante'] . "</td>" ;
+        echo "<td>" . $item['preco'] . "</td>" ;
+        echo "<td>" . $item['estoque'] . "</td>";
+        echo '<td> <a href="editar.php">Editar</a> | <a href="excluir.php">Excluir</a> </td>';
+        echo "</tr>"
     }
 }
+    echo "</table>";
     
 ?>
