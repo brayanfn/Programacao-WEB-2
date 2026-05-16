@@ -6,6 +6,10 @@
     <title>Cadastro</title>
 </head>
 <body>
+    <?php
+        require_once('includes/header.php');
+    ?>
+    
     <h2>Cadastro de Produtos</h2>
   
     <form id="frmCadastro" method="post">
