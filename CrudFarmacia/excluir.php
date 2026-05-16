@@ -28,11 +28,6 @@
         $stmt = $conexao->prepare($sql);
         $stmt->execute([':id' => $id]);
 
-        if ($stmt->rowCount() > 0) {
-            echo "Sucesso! O contato ID $idParaExcluir foi removido da agenda.";
-        } else {
-            echo "Nenhum contato foi encontrado com o ID $idParaExcluir.";
-        }
     }
 
 
