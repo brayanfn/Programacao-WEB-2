@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        require_once('includes/header.php');
+        include 'includes/header.php';
     ?>
     
     <h2>Cadastro de Produtos</h2>
