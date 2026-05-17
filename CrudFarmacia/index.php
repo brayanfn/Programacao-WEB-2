@@ -42,7 +42,7 @@ if ($tabela){
         echo "<td>" . $item['preco'] . "</td>" ;
         echo "<td>" . $item['estoque'] . "</td>";
         echo '<td> <a href="editar.php">Editar</a> | <a href="excluir.php">Excluir</a> </td>';
-        echo "</tr>"
+        echo "</tr>";
     }
 }
     echo "</table>";
