@@ -5,6 +5,9 @@
             <li class="nav__item">
                 <a href="index.php" class="nav__link">Catálogo</a>
             </li>
+            <li class="nav__item">
+                <a href="cadastro.php" class="nav__link">Cadastrar</a>
+            </li>
         </ul>
     </nav>
 </div>
