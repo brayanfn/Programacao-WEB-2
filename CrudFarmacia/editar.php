@@ -11,9 +11,15 @@
     ?>
     <h2>Teste de Funcionalidade</h2>
     <form method = "POST" action = "">
+        <label>ID: </label>
         <input type="number" name = "id">
+        <label>Nome: </label>
         <input type = "text" name = "nome">
+        <label>Fabricante: </label>
+        <input type = "text" name = "fabricante">
+        <label>Preço: </label>
         <input type = "number" name = "preco">
+        <label>Estoque: </label>
         <input type = "number" name = "estoque">
 
         <button type="submit" name="btn-atualizar">Atualizar</button>
@@ -33,15 +39,17 @@
         
         $id = $_POST['id'];
         $nome = $_POST['nome'];
+        $fabricante = $_POST['fabricante'];
         $preco = $_POST['preco'];
         $estoque = $_POST['estoque'];
 
         
-        $sql = "UPDATE produtos SET nome = :nome, preco = :preco, estoque = :estoque WHERE id = :id";
+        $sql = "UPDATE produtos SET nome = :nome, fabricante = :fabricante, preco = :preco, estoque = :estoque WHERE id = :id";
         $stmt = $conexao->prepare($sql);
 
         $funcionou = $stmt->execute([
             ':nome' => $nome,
+            ':fabricante' => $fabricante,
             ':preco' => $preco,
             ':estoque' => $estoque,
             ':id' => $id
