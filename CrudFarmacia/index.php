@@ -26,7 +26,7 @@ $tabela =  $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 if ($tabela){
 
-    echo '<table class="index__tabela" border="1">';
+    echo '<table class="index__tabela">';
     echo "<tr>";
     echo "<th>ID</th>";
     echo "<th>Nome</th>";
