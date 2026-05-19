@@ -42,7 +42,7 @@ if ($tabela){
         echo "<td>" . $item['fabricante'] . "</td>" ;
         echo "<td>" . $item['preco'] . "</td>" ;
         echo "<td>" . $item['estoque'] . "</td>";
-        echo '<td  class = "tabela__botoes"> <a class = "tabela__editar" href="editar.php">Editar</a> | <a class = "tabela__excluir" href="excluir.php">Excluir</a> </td>';
+        echo '<td  class = "tabela__botoes"> <a class = "tabela__editar" href="editar.php">Editar</a> <a class = "tabela__excluir" href="excluir.php">Excluir</a> </td>';
         echo "</tr>";
     }
 }
