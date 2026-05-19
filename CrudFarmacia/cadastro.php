@@ -18,16 +18,16 @@
         <form id="frmCadastro" method="post">
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" required>
-            <br>
+            
             <label for="fabricante">Fabricante</label>
             <input type="text" id="fabricante" name="fabricante" required>
-            <br>
+            
             <label for="preco">Preço</label>
             <input type="number" id="preco" name="preco" step="0.01" required>
-            <br>
+            
             <label for="estoque">Estoque</label>
             <input type="number" id="estoque" name="estoque" required>
-            <br>
+            
             <button type="submit">Cadastrar</button>
         </form>
     </main>
