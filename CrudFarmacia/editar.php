@@ -9,7 +9,7 @@
     <?php
         include 'includes/header.php';
     ?>
-    <h2>Teste de Funcionalidade</h2>
+    <h2>Edição de informações</h2>
     <form method = "POST" action = "">
         <label>ID: </label>
         <input type="number" name = "id">
