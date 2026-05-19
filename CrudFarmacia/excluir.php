@@ -9,9 +9,10 @@
     <?php
         include 'includes/header.php';
     ?>
-    <h2>Teste de Funcionalidade</h2>
+    <h2>Exclusão de linha da tabela</h2>
 
     <form method = "POST" action = "">
+        <label>ID: </label>
         <input type = "number" name = "id">
         <button type = "submit" name = "btnExcluir">Excluir</button>
     </form>
