@@ -53,3 +53,23 @@ button{
     padding: 0.5rem 1rem;
     font-family:'Times New Roman', Times, serif;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: #8c162a;
+    align-items: center;
+    border-bottom: 10px solid #660022;
+}
+
+.header a {
+    font-size: 25px;
+    color: #ebe5ce;
+}
+
+.header__logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fafafa;
+}
