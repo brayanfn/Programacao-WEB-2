@@ -75,6 +75,26 @@ button{
     color: #fafafa;
 }
 
+.nav__lista{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__link{
+    display:block;
+    text-decoration: none;
+    color: #ebe5ce;
+    margin: 0
+    padding: 1rem 0.5rem;
+}
+
+.nav__link:hover{
+    display: block;
+    background-color: #660022;
+    color: #ced1c0;
+
 footer {
     padding: 10px;
     margin: 0;
