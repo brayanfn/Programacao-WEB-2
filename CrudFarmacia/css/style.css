@@ -23,12 +23,11 @@ form {
     padding: 1rem;
     border:5px solid #ced1c0;
     background-color: #ebe5ce;
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 form label{
-    font-weight: ;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: block;
     margin-bottom: 5px;
     letter-spacing: 0.6px;
@@ -36,7 +35,9 @@ form label{
 }
 
 form input{
+    font-size: 1.6rem;
     padding: 0.3rem;
+    margin-bottom: 1rem;
     display: block;
     background-color: #fffff9;
     border-radius: 4px;
@@ -71,5 +72,12 @@ button{
 .header__logo {
     text-decoration: none;
     font-size: 1.5rem;
+    color: #fafafa;
+}
+
+footer {
+    padding: 10px;
+    margin: 0;
+    background-color: #8c162a;
     color: #fafafa;
 }
