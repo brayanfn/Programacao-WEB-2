@@ -151,3 +151,43 @@ footer {
     background-color: #8c162a;
     color: #fafafa;
 }
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.3rem;
+    }
+
+    .tabela__editar,
+    .tabela__excluir {
+        font-size: 1.3rem;
+    }
+
+    .tabela__botoes {
+        display: block;
+    }
+
+    .index__tabela td {
+        padding: 1rem 0;
+    }
+
+    .index__tabela td,
+    .index__tabela th {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    form label {
+        font-size: 2rem;
+    }
+
+    form input {
+        font-size: 1.6rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+}
