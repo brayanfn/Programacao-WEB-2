@@ -94,6 +94,32 @@ button{
     display: block;
     background-color: #660022;
     color: #ced1c0;
+}
+
+.index__tabela {
+    width: 95vw;
+    font-size: 0.8rem;
+    margin: 2rem 1rem 2rem 1rem;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.index__tabela th {
+    background-color: #8c162a;
+    color: #ebe5ce;
+    padding: 6px 3px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.index__tabela td {
+    padding: 6px 0;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.index__tabela tr:hover {
+    background-color: #ffffff;
+}
 
 footer {
     padding: 10px;
