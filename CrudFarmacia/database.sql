@@ -42,8 +42,21 @@ CREATE TABLE `produtos` (
 --
 
 INSERT INTO `produtos` (`id`, `nome`, `fabricante`, `preco`, `estoque`) VALUES
-(1, 'William', 'Pai dele', 25.52, 1);
-
+(1, 'Dorflex', 'Sanofi', 17.39, 30),
+(2, 'Dipirona', 'EMS', 8.50, 50),
+(3, 'Paracetamol', 'Neo Química', 12.90, 40),
+(4, 'Ibuprofeno', 'Medley', 15.75, 25),
+(5, 'Amoxilina', 'Eurofarma', 29.99, 20),
+(6, 'Loratadina', 'Cimed', 11.49, 35),
+(7, 'Omeprazol', 'Teuto', 18.20, 45),
+(8, 'Nimesulida', 'EMS', 14.30, 28),
+(9, 'Buscopan', 'Boehringer', 22.90, 18),
+(10, 'Neosaldina', 'Takeda', 16.80, 32),
+(11, 'Benegrip', 'Hypera', 13.99, 27),
+(12, 'Cimegripe', 'Cimed', 10.50, 38),
+(13, 'Aspirina', 'Bayer', 9.90, 42),
+(14, 'Novalgina', 'Sanofi', 19.70, 24),
+(15, 'Torsilax', 'Neo Química', 21.30, 15);
 --
 -- Índices para tabelas despejadas
 --
